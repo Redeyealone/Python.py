@@ -2,23 +2,23 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    OWNER_ID = "6624008600"
-    sudo_users = "6624008600", "5208708688"
-    GROUP_ID = -1002093059683
-    TOKEN = "7535881054:AAFheRPYsLoXvG6RhH9fd9bkousj4JLdo9E"
-    mongo_url = "mongodb+srv://insanekaneki7:w86O8Q2f7pGEdWYR@cluster0.fxcecdz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
-    PHOTO_URL = ["https://graph.org/file/de583389881d34e4b51e5.jpg", "https://graph.org/file/3eb21ef48c323d0b3f0c5.jpg"]
-    SUPPORT_CHAT = "insanesociety"
-    UPDATE_CHAT = "insaneupdate"
-    BOT_USERNAME = "insane_catcher_bot"
-    CHARA_CHANNEL_ID = "1002068358722"
-    api_id = 24341346
-    api_hash = "2e0526c7dbae85722313845219600c56"
+    OWNER_ID = 5483829443
+    sudo_users = "6407508299, 6176582997"
+    GROUP_ID = -1002066178498
+    TOKEN = "6901289852:AAG0TjmYhESxctAqWioblCRVW7-ORMlcGsc"
+    mongo_url = "mongodb+srv://zhuofan21001:9Bpb5voEiKYcnUQm@cluster0.mibzqh9.mongodb.net/?retryWrites=true&w=majority"
+    PHOTO_URL = ["https://te.legra.ph/file/9f81d51fcc0cf0284a99f.jpg","https://te.legra.ph/file/9f81d51fcc0cf0284a99f.jpg"]
+    SUPPORT_CHAT = "Dark_Support_Group"
+    UPDATE_CHAT = "Dark_Support_Group"
+    BOT_USERNAME = "waifuqueenriyabot"
+    CHARA_CHANNEL_ID = "-1002004020165"
+    api_id = 28213805
+    api_hash = "8f80142dfef1a696bee7f6ab4f6ece34"
 
     
 class Production(Config):
     LOGGER = True
 
 
-class Development(Config):
+class Development(Config): 
     LOGGER = True
